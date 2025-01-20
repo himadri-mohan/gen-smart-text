@@ -3,6 +3,7 @@
 	import Navbar from './components/Navbar.svelte';
 	import TabNavigation from './components/TabNavigation.svelte';
 	import MainContent from './components/MainContent.svelte';
+	import ClaudeAPI from "./ClaudeAPI.svelte";
   </script>
   
   <style>
@@ -26,10 +27,12 @@
 	<!-- <Sidebar /> -->
 	<div class="main">
 	  <Navbar />
-	  <TabNavigation />
+	  <!-- <TabNavigation /> -->
 	  <div class="content">
-		<MainContent />
+		<!-- <MainContent /> -->
+		<ClaudeAPI />
 	  </div>
 	</div>
+	
   </div>
   
